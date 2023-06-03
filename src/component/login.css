@@ -1,0 +1,148 @@
+/* body{
+    max-width: 100vw;
+    max-height: 100vh;
+    
+}
+
+.content
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 200px;
+  height:280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:lightcoral;
+}
+
+.forms
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.username,.password,.submissionlogin
+{
+    padding-top:7px;
+    padding-bottom:5px;
+}
+
+input{
+    height:10px;
+    border: none;
+    border: 1px solid lightgrey;
+}
+
+button
+{
+    
+    margin-top: 15px;
+    border-radius: 7px;
+    border:1px solid lightgray;
+    color:lightcoral;
+    font-size:110%;
+}
+
+input:focus {
+    /* styles to apply when the input is in focus */
+    border: none;
+   
+    /* add more styles as needed */
+  /* } */
+
+  /* .logedout
+  {
+    position:relative;
+    margin:auto;
+  }
+  .deleteBtn
+  {
+    position:relative;
+    margin:2rem;
+  } */ */
+
+/*  */
+
+  .container {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .login,
+  .home {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .formTitle {
+    color: teal;
+    font-weight: bold;
+  }
+  
+  input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .submitButton {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .home {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .deleteButton {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff0f1;
+    color: #d95087;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #fad4d7;
+  }
+  
